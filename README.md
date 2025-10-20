@@ -50,4 +50,4 @@ This parser currently supports the four main mathematical operations:
 * Multiplication (`*`)
 * Division (`/`)
 
-It correctly handles operator precedence and grouping with parentheses (nested parentheses as well -_-). 
+It correctly handles operator precedence and grouping with parentheses (nested parentheses as well ;D). 
