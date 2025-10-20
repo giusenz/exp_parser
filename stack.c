@@ -72,7 +72,4 @@ void destroyStack(StackNodePtr *topPtr) {
             free(item.value.s_val);
         }
     }
-    puts("+-+-----------------------+-+");
-    puts(" Stack cleaned successfully");
-    puts("+-+-----------------------+-+");
 }
