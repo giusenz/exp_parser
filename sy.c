@@ -54,7 +54,7 @@ char **conversion(char *tokens[], int token_count, int *output_count) {
         /* The token is a RIGHT PARENTHESIS */
         else if (strcmp(token,")") == 0) {
             while (!isEmpty(op_stack) 
-            && strcmp(op_stack->data.value.s_val,")") != 0) {
+            && strcmp(op_stack->data.value.s_val,"(") != 0) {
                 StackItem item = pop(&op_stack);
                 enqueue(&output_head, &output_tail, item.value.s_val);
                 rpn_token_count++;
@@ -64,7 +64,8 @@ char **conversion(char *tokens[], int token_count, int *output_count) {
             if (!isEmpty(op_stack)) {
                 StackItem paren = pop(&op_stack);
                 free(paren.value.s_val);
-            } else {
+             } 
+            else {
                 end("Mismatched closing parenthesis.\n");
             }
         } 
