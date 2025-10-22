@@ -51,3 +51,4 @@ This parser currently supports the four main mathematical operations:
 * Division (`/`)
 
 It correctly handles operator precedence and grouping with parentheses. 
+Unfortunately, the program still cannot manage the cases in which one or more of the input tokens are written without spaces.
