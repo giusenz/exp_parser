@@ -22,7 +22,7 @@ The project uses a `Makefile` for easy compilation.
 
 Run the compiled `parser` from your terminal, providing the expression as a series of arguments. Each number, operator, and parenthesis must be a separate argument.
 
-**Important**: The multiplication operator (`*`) must be quoted to prevent the shell from treating it as a wildcard (thank you BASH xD).
+**Important**: The multiplication operator (`*`) must be quoted to prevent the shell from treating it as a wildcard.
 
 * **Basic Arithmetic:**
     ```bash
@@ -50,4 +50,4 @@ This parser currently supports the four main mathematical operations:
 * Multiplication (`*`)
 * Division (`/`)
 
-It correctly handles operator precedence and grouping with parentheses (nested parentheses as well ;D). 
+It correctly handles operator precedence and grouping with parentheses. 
