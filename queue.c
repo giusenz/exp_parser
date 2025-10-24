@@ -1,4 +1,5 @@
 #include "queue.h" 
+#include "stack.h"
 
 void enqueue(QueueNodePtr *headPtr, QueueNodePtr *tailPtr, char *value) {
     QueueNodePtr newPtr = malloc(sizeof(QueueNode));
