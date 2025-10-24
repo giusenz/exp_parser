@@ -22,7 +22,7 @@ The project uses a `Makefile` for easy compilation.
 
 Run the compiled `parser` from your terminal, providing the expression as a series of arguments. Each number, operator, and parenthesis must be a separate argument.
 
-**Important**: The multiplication operator (`*`) must be quoted to prevent the shell from treating it as a wildcard.
+**Important**: The multiplication operator (`*`) must be quoted to prevent the shell from treating it as a wildcard. The same goes for parentheses
 
 * **Basic Arithmetic:**
     ```bash
@@ -36,7 +36,7 @@ Run the compiled `parser` from your terminal, providing the expression as a seri
     ```
     **Result:** `16.00`
 
-* **"Complex" Expression:**
+* **Parentheses AND precedences:**
     ```bash
     ./parser 10 + "(" -5 "*" 2 ")" / 5
     ```
