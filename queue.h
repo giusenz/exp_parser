@@ -19,9 +19,6 @@ struct queueNode {
 typedef struct queueNode QueueNode;
 typedef QueueNode *QueueNodePtr;
 
-void end(char *msg);
-
-
 bool isQEmpty(QueueNodePtr headPtr);
 
 void enqueue(QueueNodePtr *headPtr, QueueNodePtr *tailPtr, char *value);

@@ -7,7 +7,7 @@
 #include "stack.h"  
 
 void end(char *msg) {
-    perror(msg);
+    fprintf(stderr,"%s\n",msg);
     exit(1);
 }
 
