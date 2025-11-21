@@ -4,7 +4,7 @@ A command-line calculator written in C that parses and evaluates mathematical ex
 
 ## How to Build
 
-The project uses a `Makefile` for easy compilation. 
+The project uses a `Makefile`.
 
 1.  **Clone the repository:**
     ```bash
