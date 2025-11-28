@@ -2,22 +2,6 @@
 
 A command-line calculator written in C that parses and evaluates mathematical expressions. This project implements Dijkstra's Shunting Yard algorithm to convert standard infix expressions into Reverse Polish Notation (RPN), which is then evaluated to produce the final result.
 
-## How to Build
-
-The project uses a `Makefile`.
-
-1.  **Clone the repository:**
-    ```bash
-    git clone <your-repo-url>
-    cd exp_parser
-    ```
-
-2.  **Compile the program:**
-    ```bash
-    make
-    ```
-    This will create an executable file named `parser`.
-
 ## Usage Examples
 
 Run the compiled `parser` from your terminal, providing the expression as a series of arguments. Each number, operator, and parenthesis must be a separate argument.
